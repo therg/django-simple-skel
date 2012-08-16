@@ -16,3 +16,14 @@ build
 
 # Celerybeat scheduler file:
 celerybeat-schedule
+
+# virtualenv, etc paths
+.DS_Store
+.Python
+bin/
+include/
+lib/
+share/
+logs/
+src/
+Scripts/
