@@ -45,7 +45,7 @@ django-simple-skel currently supports Django 1.4. To create a new django-skel ba
 project, run the following command (this assumes you have Django 1.4 installed
 already):
 
-    $ django-admin.py startproject --template=https://github.com/therg/django-simple-skel.git woot
+    $ django-admin.py startproject --template=https://github.com/therg/django-simple-skel/zipball/master woot
     $ heroku config:add DJANGO_SETTINGS_MODULE=myproject.settings.prod
 
 
