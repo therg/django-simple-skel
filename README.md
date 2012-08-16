@@ -1,19 +1,20 @@
-django-skel
+django-simple-skel
 ===========
 
-A modern Django (1.4) project skeleton.
+A modern Django (1.4.1) project skeleton.
 
-![A fancy Django project skeleton](https://github.com/rdegges/django-skel/raw/master/docs/source/_static/skel.jpg)
+This is completely based off of Randall Degges' django-skel - https://github.com/rdegges/django-skel
+
+My goal is to make Randall's [django-skel](https://github.com/rdegges/django-skel) more generic so it would fit a wider range of projects. For example, not all
+of my projects make use of workers with Celery. If you're looking to make use of more advanced features
+such as Celery task queues I would recommend starting with [django-skel](https://github.com/rdegges/django-skel) by [Randall Degges](https://github.com/rdegges).
 
 
 Meta
 ====
 
-* author: Randall Degges
-* email:  rdegges@gmail.com
-* status: maintained, in development
-* notes:  Have feedback? Please send me an email. This project is still in its
-          infancy, and will be changing rapidly.
+* modified by: Ryan Griffin
+* original author: [Randall Degges](http://rdegges.com/)
 
 
 Purpose
@@ -34,19 +35,17 @@ is worthwhile.
 Docs
 ====
 
-The full project documentation is hosted at RTFD: http://django-skel.rtfd.org/.
-They are continuously updated to reflect changes and information about the
-project, so be sure to read them before using this boilerplate.
+Original project documentation is hosted at RTFD: http://django-skel.rtfd.org/.
 
 
 Install
 =======
 
-django-skel currently supports Django 1.4. To create a new django-skel base
+django-simple-skel currently supports Django 1.4. To create a new django-skel base
 project, run the following command (this assumes you have Django 1.4 installed
 already):
 
-    $ django-admin.py startproject --template=https://github.com/rdegges/django-skel/zipball/master woot
+    $ django-admin.py startproject --template=https://github.com/therg/django-simple-skel.git woot
     $ heroku config:add DJANGO_SETTINGS_MODULE=myproject.settings.prod
 
 
