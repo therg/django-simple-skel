@@ -1,4 +1,4 @@
-Django==1.4.1
+Django>=1.4.0,<=1.4.9
 django-compressor==1.2
 Fabric==1.4.3
 South==0.7.6
