@@ -1,7 +1,7 @@
 django-simple-skel
 ===========
 
-A modern Django (1.4.1) project skeleton.
+A modern Django (1.4.x) project skeleton.
 
 This is completely based off of Randall Degges' django-skel - https://github.com/rdegges/django-skel
 
